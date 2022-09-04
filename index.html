@@ -1,14 +1,210 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="with=device-width, intial-scale=1.0">
-        <title>Sydney's Website</title>
-        <link rel="stylesheet" href="style.css">
-
-    </head>
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>Sydney Pruitt</title>
+    <!--- connect to css--->
+    <link rel="stylesheet" href="style.css">
+    
+    
+     <!--- link for font--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+    
+    
+    <!--- link for characters--->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous" >
+    
+</head>
 <body>
+    
+    <!---header--->
     <section class="header">
-        
+        <nav>
+    <!---header image --->
+            <a href="index.html"><img src="images/mountain.png"
+                                      width = "100"
+                                      height = "100"></a>
+            <div class="nav-links" id="navLinks">
+    <!---header menu--->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-times" onclick="showMenu()"></i>
+        </nav>
+    <!---header text--->
+        <div class="text-box">
+            <h1>my name is sydney pruitt</h1>
+            <p>here's what you need to know about me</p>
+        </div>
     </section>
+    
+    
+    
+    
+    
+<!---overview--->     
+<section class="overview">
+    
+    <h1>overview</h1>
+    
+    <div class = "row">
+        
+        <div class="overview-col">
+            <img src= "images/flower.png">
+            <div>
+                <p> Although a Colorado native, I'm now located across the country in Boston, where I study at Northeastern University. <br> Entering into my third year, I am pursuing a Bachelor’s degree in Computer Science and Economics, with a minor in Interaction Design.</p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+    
+ 
+<!---academics--->    
+    
+<section class="academics">
+    <h1>education</h1>
+    
+    <div class= "row">
+        <div class="course-col">
+            <h3>Air Academy High School</h3>
+            <p> Graduation: 2024 <br>
+                Summa Cum Laude <br>
+                4.70/4.00 GPA <br>
+                <br>
+                Honors: <br>
+                Advanced Placement (AP) Scholar with Distinction<br>
+                National Youth Leadership Forum: Engineering <br>
+                Principal’s Honor Roll 2016-20 <br>
+                National Art Honor Society 2018-20 <br> 
+                National Spanish Honor Society 2018-20 <br>
+                National Honor Society 2018-20 <br>
+                <br>
+                Activities: <br>
+                Family, Career, and Community Leaders of America (President) 
+                Colorado Student Leadership Institute <br>
+                The Hague International Model United Nations <br>
+                Varsity Soccer <br>
+                Varsity Tennis<br>
+</p>
+        </div>
+        <div class="course-col">
+            <h3>Northeastern University</h3>
+            <p> Expected Graduation: May 2024 <br>
+                Candidate for Bachelor of Science in Computer Science and Economics <br>
+                with Interaction Design Minor <br>   
+                <br>
+                Honors: <br>
+                Dean's List <br>
+                <br>
+                Activities: <br> 
+                Kappa Kappa Gamma – Finance Committee <br>
+                Economics Society <br>
+                Disrupt Fintech Initiative <br>
+                Generate Development Studio <br>
+</p>
+        </div>
+    </div>
+</section>    
+    
+    
+    
+<!---work--->     
+<section class="work">
+    <h1>work experience</h1>
+    
+    <div class = "row">
+        <div class="work-col">
+            <h3> Il Vicino</h3>
+            <p>Server</p>
+            <p2>(May 2018 – August 2021)</p2>
+        </div>
+        <div class="work-col">
+            <h3> Northeastern University</h3>
+            <p>Discrete Structures Teaching Assistant</p>
+            <p2>(July – August 2021)</p2>
+        </div>
+        <div class="work-col">
+            <h3> Northeastern University</h3>
+            <p>Information Science Teaching Assistant</p>
+            <p2>(September – December 2021)</p2>
+        </div>
+        <div class="work-col">
+            <h3> MG+M Law Firm</h3>
+            <p>Financial Reporting Analyst</p>
+            <p2>(January - June 2022)</p2>
+        </div>
+    </div>
+    
+</section>  
+    
+    
+    
+ <!---hobbies--->     
+<section class="hobbies">
+    <h1>interests</h1>
+    <p>(things i love)</p>
+    
+    <div class="row">
+        <div class="hobbies-col">
+            <img src= "images/ski.jpeg">
+            <div class="layer">
+                <h3>skiing</h3>
+            </div>
+        </div>
+        <div class="hobbies-col">
+            <img src= "images/art.jpeg">
+            <div class="layer">
+                <h3>art</h3>
+            </div>
+        </div>
+        <div class="hobbies-col">
+            <img src= "images/food.jpeg">
+            <div class="layer">
+                <h3>food</h3>
+            </div>
+        </div>
+        <div class="hobbies-col">
+            <img src= "images/travel.jpeg">
+            <div class="layer">
+                <h3>traveling</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+    
+
+    
+    
+    
+<!---final--->     
+<section class="final">   
+    <div class="icons">
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Created by Sydney Pruitt</p>
+</section>
+    
+    
+    
+    
+<!--- JavaScript for small screen menu --->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+    
 </body>
 </html>
